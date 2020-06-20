@@ -1,0 +1,33 @@
+{
+	"name": "solutions-n-plus-one-problem-graphql",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --ext js,graphql --exec babel-node ./src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alexandreservian/solutions-n-plus-one-problem-graphql.git"
+	},
+	"keywords": [
+		"tutorial",
+		"graphql",
+		"sequilize",
+		"postgres"
+	],
+	"author": "Alexandre Servian <alexandreservian@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/alexandreservian/solutions-n-plus-one-problem-graphql/issues"
+	},
+	"homepage": "https://github.com/alexandreservian/solutions-n-plus-one-problem-graphql#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.4",
+		"sequelize-cli": "^5.5.1"
+	},
+	"dependencies": {
+		"sequelize": "^5.21.13",
+		"sqlite3": "^4.2.0"
+	}
+}
