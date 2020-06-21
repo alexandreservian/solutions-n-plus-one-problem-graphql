@@ -1,0 +1,3 @@
+#import Query from 'query.graphql'
+#import Author from 'author.graphql'
+#import Book from 'book.graphql'
