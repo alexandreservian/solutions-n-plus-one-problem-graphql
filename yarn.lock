@@ -1132,6 +1132,11 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
+dataloader@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/dataloader/-/dataloader-2.0.0.tgz#41eaf123db115987e21ca93c005cd7753c55fe6f"
+  integrity sha1-QerxI9sRWYfiHKk8AFzXdTxV/m8=
+
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"

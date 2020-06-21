@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon --ext js,graphql ./src/index.js"
+		"start": "nodemon --ext js,graphql ./src/index.js",
+		"dataloader": "nodemon --ext js,graphql ./src/dataloader.js"
 	},
 	"repository": {
 		"type": "git",
@@ -28,6 +29,7 @@
 	},
 	"dependencies": {
 		"apollo-server": "^2.15.0",
+		"dataloader": "^2.0.0",
 		"graphql": "^15.1.0",
 		"graphql-import": "^1.0.2",
 		"sequelize": "^5.21.13",
