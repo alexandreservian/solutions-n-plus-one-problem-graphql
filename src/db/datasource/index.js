@@ -18,7 +18,6 @@ const loadModels = (sequelize) => {
 
 const sequelize = new Sequelize(config[env]);
 const models = loadModels(sequelize);
-
 // create relationships in the ORM
 Object.values(models)
 	.filter((model) => typeof model.associate === "function")

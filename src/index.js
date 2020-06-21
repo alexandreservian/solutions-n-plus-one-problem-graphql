@@ -2,6 +2,18 @@ const { ApolloServer } = require("apollo-server");
 const { importSchema } = require("graphql-import");
 const db = require("./db/datasource");
 
+const resolvers = {
+	Author: {
+		books: (parent, _, { db }) => {
+			const { id: authorId } = parent;
+			return db.Book.findAll({ where: { authorId } });
+		},
+	},
+	Query: {
+		authors: (_, __, { db }) => db.Author.findAll(),
+	},
+};
+
 db.sequelize
 	.authenticate()
 	.then(() => {

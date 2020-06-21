@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
 		title: DataTypes.STRING,
 	});
 	Book.associate = (models) => {
-		Book.belongsTo(models.MegaEvolution, {
+		Book.belongsTo(models.Author, {
 			as: "authors",
 			foreignKey: "authorId",
 		});
